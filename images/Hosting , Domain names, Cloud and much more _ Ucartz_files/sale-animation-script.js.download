@@ -1,0 +1,42 @@
+ /* inspired by https://goo.gl/HuhJi1 and https://goo.gl/ABJTqd  */
+
+$(document).ready(function(){
+
+  
+       /* Ex4 */
+$(".Banner4").delay(15).fadeIn(500);
+$(".BannerHolderEx4").delay(160).fadeIn(500);
+$(".BannerBorderEx4,.BannerBorderLineEx3").delay(21).fadeIn(500);
+$(".SaleEx4").delay(1640).fadeIn(500);
+$(".circleEx4").delay(1800).fadeIn(500);
+$(".OffEx4").delay(2560).fadeIn(500);
+$(".BestEx4").delay(3800).fadeIn(500);
+ $(".triangle1Ex4").delay(4710).fadeIn(500);
+$(".triangle2Ex4").delay(4730).fadeIn(500);
+$(".triangle3Ex4").delay(4760).fadeIn(500);
+  
+   
+});
+
+
+
+
+
+ /* Rerun on click */
+
+/* Ex1 */
+
+/* Ex4*/
+$( ".Banner4" ).click(function() {
+$(".BannerHolderEx4,.BannerBorderEx4,.BannerBorderLineEx4,.SaleEx4,.circleEx4,.OffEx4,.BestEx4,.triangle1Ex4,.triangle2Ex4,.triangle3Ex4").delay(0).fadeOut(500);  
+$(".BannerHolderEx4").delay(1000).fadeIn(500);
+$(".BannerBorderEx4,.BannerBorderLineEx4").delay(100).fadeIn(500);
+$(".SaleEx4").delay(2000).fadeIn(500);
+$(".circleEx4").delay(3000).fadeIn(500);
+$(".OffEx4").delay(3600).fadeIn(500);
+$(".BestEx4").delay(3800).fadeIn(500);
+ $(".triangle1Ex4").delay(4100).fadeIn(500);
+$(".triangle2Ex4").delay(4300).fadeIn(500);
+$(".triangle3Ex4").delay(4600).fadeIn(500);
+});
+
